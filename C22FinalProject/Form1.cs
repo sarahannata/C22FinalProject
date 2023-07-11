@@ -16,5 +16,27 @@ namespace C22FinalProject
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void MENU_Click(object sender, EventArgs e)
+        {
+            Form2 fo = new Form2();
+            fo.Show();
+            this.Hide();
+        }
     }
 }
